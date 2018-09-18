@@ -1,0 +1,153 @@
+/* Font Family */
+@font-face {
+  font-family: 'Calibre-Regular';
+  src: url('./fonts/Calibre-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Calibre-Medium';
+  src: url('./fonts/CalibreWeb-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Calibre-Semibold';
+  src: url('./fonts/CalibreWeb-Semibold.woff') format('woff');
+}
+
+/* General Styling */
+body {
+  background-color: #ededef;
+}
+
+h1,
+h3,
+p {
+  font-family: 'Calibre-Regular', sans-serif;
+}
+
+h3 {
+  font-size: 16px;
+  color: #656666;
+  font-weight: 400;
+  letter-spacing: 0.086em;
+}
+
+img {
+  height: 72px;
+  width: 72px;
+}
+
+.reviewImage {
+  border-radius: 50%;
+}
+
+polygon {
+  transform-origin: 0px 0px 0px;
+  transform: none;
+}
+/* Class Styling */
+
+.reviews-section {
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 32px;
+}
+
+.reviews-container {
+  font-size: 16px;
+  padding: 24px;
+  flex: 2;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.reviews {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.reviewDetails {
+  flex: 3;
+}
+
+.imageContainer {
+  flex: 1;
+}
+.reviewName,
+.reviewText {
+  font-family: 'Calibre-Regular', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #101820;
+  letter-spacing: 0.013em;
+}
+
+.reviewDate {
+  font-family: 'Calibre-Regular', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #656666;
+}
+
+/* Google Review */
+.googleReview {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 20px;
+  font-family: 'Calibre-Regular', sans-serif;
+}
+
+.googleReviewText {
+  margin-right: 53px;
+}
+
+.googleReviewText h3 {
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Calibre-Semibold';
+  letter-spacing: 0.086em;
+  color: #656666;
+  text-transform: uppercase;
+}
+
+.googleStarRating {
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Calibre-Semibold';
+  letter-spacing: 0.086em;
+  text-transform: uppercase;
+  margin: auto;
+  flex: 1;
+}
+
+.logo {
+  color: #9c0029;
+  font-size: 80px;
+}
+
+.contactPlaceholder {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 30%;
+  flex: 1;
+}
+
+.seeMore {
+  color: #9b9b9b;
+}
